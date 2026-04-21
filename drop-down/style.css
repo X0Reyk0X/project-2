@@ -28,12 +28,11 @@ a{
     padding: 20px;
 }
 
-
 .dropdown-menu li a{
     background-color:teal;
     padding: 15px;
     width: 270px;
-      display:inline-block;
+    display:inline-block;
 }
 
 .dropdown-menu li a:hover{
@@ -42,11 +41,11 @@ a{
 
 .dropdown-menu{
     box-shadow: 0 0 10px black;
-display: none;
+    display: none;
   position: absolute;
   top: 90px;
 }
 
-.dropdown:hover ul{
+.dropdown:hover .dropdown-menu{
     display: block;
 }
